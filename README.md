@@ -1,19 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>hi</title>
-</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html>
-
-Luminous
-
-Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder Luminous/ contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running. 
+<h2>Luminous</h1>
+<p>
+Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder Luminous/ contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running.
+</p>
 
 
 Compilation and Running 
@@ -110,3 +102,6 @@ j is not a constant since its expression includes the operator fby that constant
 t
 
 j relies on time dimension. 
+
+</body>
+</html>
