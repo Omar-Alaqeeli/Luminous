@@ -2,13 +2,13 @@
 <html>
 <body>
 
-<h2>Luminous</h1>
+<h2>Luminous</h2>
 <p>
 Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder Luminous/ contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running.
 </p>
 
 
-Compilation and Running 
+<h2>Compilation and Running</h2>
 
 Assuming all the files are downloaded and located in the same the directory, using Terminal (mac OS), : 
 
@@ -23,7 +23,7 @@ java luminous
 
 When running, the right shift operator “>>” appears and user can start typing commands.
 
-Luminous Commands
+<h2>Luminous Commands</h2>
 •	var v: is used to declare a variable, v, and assign a value to it. 
 •	val v: is used to evaluate v and print its value according to its dimensions. 
 •	defs: to list all variables stored in the dictionary along with their expressions. 
@@ -34,9 +34,9 @@ Luminous Commands
 Note: 1 is used to represent true and 0 to represent false. 
 
 
-Tutorials:
+<h2>Tutorials</h2>
 
-Example1:
+<h3>Example1:</h3>
 
 If a=47, b=35 and c is their sum, then we define them as follows:
 >> var a=47;
@@ -48,7 +48,7 @@ If a=47, b=35 and c is their sum, then we define them as follows:
 Notice that we can’t add a and b directly without first defining a variable that equal to their sum, c, thus the evaluation is inquired for c. Notice also, when defining variables, sentence has to be concluded with a semicolon, “;”, otherwise and error will occur. 
 
 
-Example2:
+<h3>Example2:</h3>
 >> var i=1;
 >> var j=i fby j+1;
 >> val j
@@ -61,7 +61,7 @@ Example2:
 
 When variable under evaluation has only one dimension, the stream of outputs is printed vertically (time dimension) or horizontally (space dimension). The stream is continued infinitely (due to the nature of Lucid programming language) and in this case the terminal has to be interrupted by using control+C (mac OS).
 
-Example3:
+<h3>Example3:</h3>
 >> var P=100 sby (P fby init P+1);  
 >> val P
 100 100 100 100 100 ...
@@ -74,10 +74,10 @@ Example3:
 
 When evaluating a variable with two dimensions, the stream of values is printed in a form of a matrix. For demonstration purposes, only five columns are printed (in reality, the stream is infinite) while printing rows is infinite therefore the terminal has to be interrupted. 
 
-Important Note: 
+<h3>Important Note:</h3>
 When evaluating variables that output streams of values (either one dimension or two), the interpreter is programmed to pause one second between each evaluation iteration for the purpose of demonstrating the outputs for the user. 
 
-Example4:
+<h3>Example4:</h3>
 >> var j=i fby i+1;
 >> defs
 
