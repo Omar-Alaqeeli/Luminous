@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h2>Luminous</h2>
+<h1>Luminous</h1>
 <p>
 Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder Luminous/ contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running.
 </p>
