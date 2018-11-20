@@ -57,7 +57,7 @@ Notice that we can’t add a and b directly without first defining a variable th
 3 
 4
 ..
-.. <pre>
+.. </pre>
 
 When variable under evaluation has only one dimension, the stream of outputs is printed vertically (time dimension) or horizontally (space dimension). The stream is continued infinitely (due to the nature of Lucid programming language) and in this case the terminal has to be interrupted by using control+C (mac OS).
 </p> 
