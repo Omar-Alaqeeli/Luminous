@@ -80,8 +80,7 @@ When variable under evaluation has only one dimension, the stream of outputs is 
 ```
 When evaluating a variable with two dimensions, the stream of values is printed in a form of a matrix. For demonstration purposes, only five columns are printed (in reality, the stream is infinite) while printing rows is infinite therefore the terminal has to be interrupted. 
 
-**Important Note:**
-
+####Important Note:
 When evaluating variables that output streams of values (either one dimension or two), the interpreter is programmed to pause one second between each evaluation iteration for the purpose of demonstrating the outputs for the user. 
 
 ### Example 4:
