@@ -63,7 +63,8 @@ When variable under evaluation has only one dimension, the stream of outputs is 
 </p> 
   
 <h3>Example3:</h3>
->> var P=100 sby (P fby init P+1);  
+<p>
+<pre>>> var P=100 sby (P fby init P+1);  
 >> val P
 100 100 100 100 100 ...
 100 101 101 101 101 ...
@@ -71,38 +72,47 @@ When variable under evaluation has only one dimension, the stream of outputs is 
 100 101 101 101 101 ...
 100 101 101 101 101 ...
 ... ... ... ...
-... ...
+... ... </pre>
 
 When evaluating a variable with two dimensions, the stream of values is printed in a form of a matrix. For demonstration purposes, only five columns are printed (in reality, the stream is infinite) while printing rows is infinite therefore the terminal has to be interrupted. 
+</p>
 
 <h3>Important Note:</h3>
-When evaluating variables that output streams of values (either one dimension or two), the interpreter is programmed to pause one second between each evaluation iteration for the purpose of demonstrating the outputs for the user. 
+<p> When evaluating variables that output streams of values (either one dimension or two), the interpreter is programmed to pause one second between each evaluation iteration for the purpose of demonstrating the outputs for the user. </p>
 
 <h3>Example4:</h3>
->> var j=i fby i+1;
+<p>
+<pre>>> var j=i fby i+1;
 >> defs
 
 Variable : Expression
 V0 : int 1
 V1 : i + V0
-j :  i fby V1
+j :  i fby V1 </pre>
 
 defs lists all values in the dictionary; variables and their atomic expressions. 
+</p>
 
->> defined j
-false
+<p>
+<pre>>> defined j
+false </pre>
 
 j can’t be defined because i is not yet defined. Hence, j can’t be evaluated. 
-
->> constant j
-false
+</p>
+ 
+<p>
+<pre>>> constant j
+false </pre>
 
 j is not a constant since its expression includes the operator fby that constantly recalculates j.
-
->> dims j
-t
+</p>
+ 
+<p>
+<pre>>> dims j
+t </pre>
 
 j relies on time dimension. 
-
+</p>
+  
 </body>
 </html>
