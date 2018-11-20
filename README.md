@@ -49,7 +49,7 @@ If a=47, b=35 and c is their sum, then we define them as follows:
 >> val c
 82
 ```
-Notice that we can’t add `a` and `b` directly without first defining a variable that equal to their sum, `c`, thus the evaluation is inquired for `c`. Also, when defining variables, each sentence has to be concluded with a semicolon, `;`, otherwise and error will occur. 
+Notice that we can’t add `a` and `b` directly without first defining a variable that equal to their sum, `c`, thus the evaluation is inquired for `c`. Also, when defining variables, each sentence has to be concluded with a semicolon, `;`, otherwise error will occur. 
 
 
 ### Example 2:
