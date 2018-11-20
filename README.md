@@ -24,12 +24,12 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 </p>
 
 <h2>Luminous Commands</h2>
-<li> var v: is used to declare a variable, v, and assign a value to it. </li>
-<li> val v: is used to evaluate v and print its value according to its dimensions. </li>
-<li> defs: to list all variables stored in the dictionary along with their expressions. </li>
-<li> Defined v: returns true if v can be evaluated and returns false otherwise. </li>
-<li> constant v: returns true if there is no temporal operators (exception: first) involve in an expression that is linked directly or indirectly to v. otherwise return false. </li>
-<li> dims v: returns dimensions that v depends on; t for the time dimension, s for the space dimension, t & s for both and none for nothing. </li>
+<li> <b>var v:</br> is used to declare a variable, v, and assign a value to it. </li>
+<li> <b>val v:</br> is used to evaluate v and print its value according to its dimensions. </li>
+<li> <b>defs:</br> to list all variables stored in the dictionary along with their expressions. </li>
+<li> <b>Defined v:</br> returns true if v can be evaluated and returns false otherwise. </li>
+<li> <b>constant v:</br> returns true if there is no temporal operators (exception: first) involve in an expression that is linked directly or indirectly to v. otherwise return false. </li>
+<li> <b>dims v:</br> returns dimensions that v depends on; t for the time dimension, s for the space dimension, t & s for both and none for nothing. </li>
 
 <br> <b>Note:</b> 1 is used to represent true and 0 to represent false. </br>
 
