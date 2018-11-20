@@ -24,7 +24,7 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 </p>
 
 <h2>Luminous Commands</h2>
-•	var v: is used to declare a variable, v, and assign a value to it. 
+<li>•	var v: is used to declare a variable, v, and assign a value to it. </li>
 •	val v: is used to evaluate v and print its value according to its dimensions. 
 •	defs: to list all variables stored in the dictionary along with their expressions. 
 •	Defined v: returns true if v can be evaluated and returns false otherwise. 
