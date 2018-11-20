@@ -37,7 +37,7 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 <h2>Tutorials</h2>
 
 <h3>Example1:</h3>
-<p> If a=47, b=35 and c is their sum, then we define them as follows:
+<p>If a=47, b=35 and c is their sum, then we define them as follows:
 <pre>>> var a=47;
 >> var b=35;
 >> var c=a+b;
@@ -48,8 +48,8 @@ Notice that we can’t add a and b directly without first defining a variable th
 
 
 <h3>Example2:</h3>
-
->> var i=1;
+<p>
+<pre>>> var i=1;
 >> var j=i fby j+1;
 >> val j
 1 
@@ -57,10 +57,11 @@ Notice that we can’t add a and b directly without first defining a variable th
 3 
 4
 ..
-..
+.. <pre>
 
 When variable under evaluation has only one dimension, the stream of outputs is printed vertically (time dimension) or horizontally (space dimension). The stream is continued infinitely (due to the nature of Lucid programming language) and in this case the terminal has to be interrupted by using control+C (mac OS).
-
+</p> 
+  
 <h3>Example3:</h3>
 >> var P=100 sby (P fby init P+1);  
 >> val P
