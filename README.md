@@ -24,7 +24,7 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 </p>
 
 <h2>Luminous Commands</h2>
-<li> <b> var v:</b> is used to declare a variable, v, and assign a value to it. </li>
+<li> <b>var v:</b> is used to declare a variable, v, and assign a value to it. </li>
 <li> <b>val v:</b> is used to evaluate v and print its value according to its dimensions. </li>
 <li> <b>defs:</b> to list all variables stored in the dictionary along with their expressions. </li>
 <li> <b>Defined v:</b> returns true if v can be evaluated and returns false otherwise. </li>
@@ -37,15 +37,14 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 <h2>Tutorials</h2>
 
 <h3>Example1:</h3>
-
 If a=47, b=35 and c is their sum, then we define them as follows:
->> var a=47;
->> var b=35;
->> var c=a+b;
->> val c
-82
-
-Notice that we can’t add a and b directly without first defining a variable that equal to their sum, c, thus the evaluation is inquired for c. Notice also, when defining variables, sentence has to be concluded with a semicolon, “;”, otherwise and error will occur. 
+<pre> >> var a=47;
+      >> var b=35;
+      >> var c=a+b;
+      >> val c
+      82
+</pre>
+<br>Notice that we can’t add a and b directly without first defining a variable that equal to their sum, c, thus the evaluation is inquired for c. Notice also, when defining variables, sentence has to be concluded with a semicolon, “;”, otherwise and error will occur. </br>
 
 
 <h3>Example2:</h3>
