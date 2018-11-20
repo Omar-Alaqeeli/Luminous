@@ -90,7 +90,7 @@ V0 : int 1
 V1 : i + V0
 j :  i fby V1 </pre>
 
-defs lists all values in the dictionary; variables and their atomic expressions. 
+<b>defs</b> lists all values in the dictionary; variables and their atomic expressions. 
 </p>
 
 <p>
