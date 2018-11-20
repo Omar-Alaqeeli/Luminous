@@ -14,13 +14,13 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
   To compile all files at once:
   <pre> javac *.java </pre>
 
-  <br>To compile one file:
-  <br>javac file_name.java
+  To compile one file:
+  <pre> javac file_name.java </pre>
 
-  <br>To run the interpreter: 
-  <br>java luminous
+  To run the interpreter: 
+  <pre> java luminous </pre>
 
-  <br>When running, the right shift operator “>>” appears and user can start typing commands.
+  When running, the right shift operator “>>” appears and user can start typing commands.
 </p>
 
 <h2>Luminous Commands</h2>
