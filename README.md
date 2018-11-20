@@ -1,7 +1,7 @@
 
 # Luminous
 
-Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder `Luminous/` contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running. 
+Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder `Luminous/` contains all files necessary to run the interpreter. The file `luminous.java` is the main file that starts subroutines calling sequence when running. 
 
 
 ## Compilation and Running 
@@ -9,15 +9,15 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 Assuming all the files are downloaded and located in the same the directory, using Terminal (mac OS), : 
 
 To compile all files at once:
-javac *.java
+`javac *.java`
 
 To compile one file:
-javac file_name.java
+`javac file_name.java`
 
 To run the interpreter: 
-java luminous
+`java luminous`
 
-When running, the right shift operator “>>” appears and user can start typing commands.
+When running, the right shift operator `>>` appears and user can start typing commands.
 
 ## Luminous Commands
 •	var v: is used to declare a variable, v, and assign a value to it. 
