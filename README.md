@@ -31,7 +31,7 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 <li> constant v: returns true if there is no temporal operators (exception: first) involve in an expression that is linked directly or indirectly to v. otherwise return false. </li>
 <li> dims v: returns dimensions that v depends on; t for the time dimension, s for the space dimension, t & s for both and none for nothing. </li>
 
-<pre> Note: 1 is used to represent true and 0 to represent false. </pre>
+<p> Note: 1 is used to represent true and 0 to represent false. </p>
 
 
 <h2>Tutorials</h2>
