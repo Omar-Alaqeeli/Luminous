@@ -10,10 +10,10 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 
 <h2>Compilation and Running</h2>
 <p>
-Assuming all the files are downloaded and located in the same the directory, using Terminal (mac OS), :
+  Assuming all the files are downloaded and located in the same the directory, using Terminal (mac OS), :
 <p>
-  <br>To compile all files at once:
-  <br>javac *.java
+  <pre>To compile all files at once:</pre>
+  <pre>javac *.java </pre>
 </p>
 <p>
   <br>To compile one file:
