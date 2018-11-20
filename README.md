@@ -25,6 +25,7 @@ java luminous
 
 When running, the right shift operator `>>` appears and user can start typing commands.
 
+
 ## Luminous Commands
 *	`var v`: is used to declare a variable, `v`, and assign a value to it. 
 *	`val v`: is used to evaluate `v` and print its value according to its dimensions. 
@@ -33,7 +34,7 @@ When running, the right shift operator `>>` appears and user can start typing co
 *	`constant v`: returns *true* if there is no temporal operators (exception:`first`) involve in an expression that is linked directly or indirectly to `v`. otherwise return *false*.
 *	`dims v`: returns dimensions that `v` depends on; `t` for the *time* dimension, `s` for the *space* dimension, `t` & `s` for both and *none* for nothing. 
 
-**Note:** `1` is used to represent *true* and `0` to represent *false*. 
+**Note:** `1` is used to represent *true* in expression and `0` to represent *false*. 
 
 
 ## Tutorials:
@@ -41,12 +42,13 @@ When running, the right shift operator `>>` appears and user can start typing co
 ### Example1:
 
 If a=47, b=35 and c is their sum, then we define them as follows:
+```
 >> var a=47;
 >> var b=35;
 >> var c=a+b;
 >> val c
 82
-
+```
 Notice that we can’t add a and b directly without first defining a variable that equal to their sum, c, thus the evaluation is inquired for c. Notice also, when defining variables, sentence has to be concluded with a semicolon, “;”, otherwise and error will occur. 
 
 
