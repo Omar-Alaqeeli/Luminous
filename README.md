@@ -7,12 +7,11 @@
 Luminous is a Java-based interactive interpreter for Lucid programming language. It uses machine terminal for inputs and outputs. The folder Luminous/ contains all files necessary to run the interpreter. The file luminous.java is the main file that starts subroutines calling sequence when running.
 </p>
 
-
 <h2>Compilation and Running</h2>
 <p>
   Assuming all the files are downloaded and located in the same the directory, using Terminal (mac OS), :
 <p>
-  To compile all files at once:
+  <br>To compile all files at once:</br>
   <pre> javac *.java </pre>
 </p>
 <p>
