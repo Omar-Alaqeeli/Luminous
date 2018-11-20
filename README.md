@@ -39,7 +39,7 @@ When running, the right shift operator `>>` appears and user can start typing co
 
 ## Tutorials:
 
-### Example1:
+### Example 1:
 
 If a=47, b=35 and c is their sum, then we define them as follows:
 ```
@@ -49,10 +49,11 @@ If a=47, b=35 and c is their sum, then we define them as follows:
 >> val c
 82
 ```
-Notice that we can’t add a and b directly without first defining a variable that equal to their sum, c, thus the evaluation is inquired for c. Notice also, when defining variables, sentence has to be concluded with a semicolon, “;”, otherwise and error will occur. 
+Notice that we can’t add `a` and `b` directly without first defining a variable that equal to their sum, `c`, thus the evaluation is inquired for `c`. Also, when defining variables, each sentence has to be concluded with a semicolon, `;`, otherwise and error will occur. 
 
 
-### Example2:
+### Example 2:
+```
 >> var i=1;
 >> var j=i fby j+1;
 >> val j
@@ -62,10 +63,11 @@ Notice that we can’t add a and b directly without first defining a variable th
 4
 ..
 ..
+```
+When variable under evaluation has only one dimension, the stream of outputs is printed vertically (*time* dimension) or horizontally (*space* dimension). The stream is continued infinitely (due to the nature of *Lucid* programming language) and in this case the terminal has to be interrupted by using *control+C* (mac OS).
 
-When variable under evaluation has only one dimension, the stream of outputs is printed vertically (time dimension) or horizontally (space dimension). The stream is continued infinitely (due to the nature of Lucid programming language) and in this case the terminal has to be interrupted by using control+C (mac OS).
-
-### Example3:
+### Example 3:
+```
 >> var P=100 sby (P fby init P+1);  
 >> val P
 100 100 100 100 100 ...
@@ -75,13 +77,14 @@ When variable under evaluation has only one dimension, the stream of outputs is 
 100 101 101 101 101 ...
 ... ... ... ...
 ... ...
-
+```
 When evaluating a variable with two dimensions, the stream of values is printed in a form of a matrix. For demonstration purposes, only five columns are printed (in reality, the stream is infinite) while printing rows is infinite therefore the terminal has to be interrupted. 
 
-Important Note: 
+**Important Note:**
 When evaluating variables that output streams of values (either one dimension or two), the interpreter is programmed to pause one second between each evaluation iteration for the purpose of demonstrating the outputs for the user. 
 
-### Example4:
+### Example 4:
+```
 >> var j=i fby i+1;
 >> defs
 
@@ -89,22 +92,23 @@ Variable : Expression
 V0 : int 1
 V1 : i + V0
 j :  i fby V1
+```
+*defs* lists all values in the dictionary; variables and their atomic expressions. 
 
-defs lists all values in the dictionary; variables and their atomic expressions. 
-
+```
 >> defined j
 false
+```
+`j` can’t be defined because `i` is not yet defined. Hence, `j` can’t be evaluated. 
 
-j can’t be defined because i is not yet defined. Hence, j can’t be evaluated. 
-
+```
 >> constant j
 false
+```
+`j` is not a constant since its expression includes the operator `fby` that constantly recalculates `j`.
 
-j is not a constant since its expression includes the operator fby that constantly recalculates j.
-
+```
 >> dims j
 t
-
-j relies on time dimension. 
-
-
+```
+`j` relies on *time* dimension. 
