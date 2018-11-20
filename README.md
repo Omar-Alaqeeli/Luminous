@@ -26,8 +26,8 @@ java luminous
 When running, the right shift operator `>>` appears and user can start typing commands.
 
 ## Luminous Commands
-•	var v: is used to declare a variable, v, and assign a value to it. 
-•	val v: is used to evaluate v and print its value according to its dimensions. 
+*	var v: is used to declare a variable, v, and assign a value to it. 
+*	val v: is used to evaluate v and print its value according to its dimensions. 
 •	defs: to list all variables stored in the dictionary along with their expressions. 
 •	Defined v: returns true if v can be evaluated and returns false otherwise. 
 •	constant v: returns true if there is no temporal operators (exception: first) involve in an expression that is linked directly or indirectly to v. otherwise return false.
