@@ -19,7 +19,8 @@ javac file_name.java
 ```
 
 To run the interpreter: 
-```java luminous
+```
+java luminous
 ```
 
 When running, the right shift operator `>>` appears and user can start typing commands.
