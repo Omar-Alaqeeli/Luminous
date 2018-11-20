@@ -37,8 +37,7 @@ Luminous is a Java-based interactive interpreter for Lucid programming language.
 <h2>Tutorials</h2>
 
 <h3>Example1:</h3>
-<p>
-If a=47, b=35 and c is their sum, then we define them as follows:
+<p> If a=47, b=35 and c is their sum, then we define them as follows:
 <pre>>> var a=47;
 >> var b=35;
 >> var c=a+b;
@@ -49,6 +48,7 @@ Notice that we can’t add a and b directly without first defining a variable th
 
 
 <h3>Example2:</h3>
+
 >> var i=1;
 >> var j=i fby j+1;
 >> val j
